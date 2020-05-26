@@ -1,0 +1,17 @@
+ReArtsy_Artwork_Title
+ReArtsy_Artwork_Date
+ReArtsy_Artwork_Category
+ReArtsy_Artwork_Medium
+ReArtsy_Artwork_Dim_cm_Width
+ReArtsy_Artwork_Dim_cm_Height
+ReArtsy_Artwork_URL
+ReArtsy_Artwork_ImageURL
+ReArtsy_Artist_Name
+ReArtsy_Artist_Gender
+ReArtsy_Artist_Nationality
+ReArtsy_Artist_Birthday
+ReArtsy_Artist_Deathday
+ReArtsy_Artist_Location
+ReArtsy_Artist_Hometown
+ReArtsy_Artist_Biography
+ReArtsy_Artist_URL
