@@ -2,7 +2,7 @@
   "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
   "IsCustomNode": false,
   "Description": "",
-  "Name": "0.0_ReArtsy_Add_SharedParameters",
+  "Name": "0 ReArtsy Добавить общие параметры",
   "ElementResolver": {
     "ResolutionMap": {
       "DesignScript.Builtin.Dictionary": {
@@ -16,14 +16,14 @@
       "Id": "5fdff817afe94cd9945710047d12b7d6",
       "Name": "File Path",
       "Type": "string",
-      "Value": ".\\Artrsy_Params_List.txt",
+      "Value": ".\\ReArtsy_Params_List.txt",
       "Description": "Позволяет выбрать файл в системе и получить его имя"
     }
   ],
   "Outputs": [
     {
       "Id": "8897e33ffb3244ef94731a4ff2c103d8",
-      "Name": "Watch",
+      "Name": "Added Parameters",
       "Type": "unknown",
       "InitialValue": "",
       "Description": "Визуализация входного элемента узла."
@@ -411,8 +411,8 @@
     },
     {
       "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
-      "HintPath": "D:\\Users\\User\\Google Диск\\BIM\\ReArtsy\\Artrsy_Params_List.txt",
-      "InputValue": ".\\Artrsy_Params_List.txt",
+      "HintPath": "D:\\Users\\User\\Google Диск\\BIM\\ReArtsy\\ReArtsy_RU_0.1\\ReArtsy_Params_List.txt",
+      "InputValue": ".\\ReArtsy_Params_List.txt",
       "NodeType": "ExtensionNode",
       "Id": "5fdff817afe94cd9945710047d12b7d6",
       "Inputs": [],
@@ -1239,7 +1239,7 @@
       },
       {
         "ShowGeometry": true,
-        "Name": "Watch",
+        "Name": "Added Parameters",
         "Id": "8897e33ffb3244ef94731a4ff2c103d8",
         "IsSetAsInput": false,
         "IsSetAsOutput": true,
@@ -1319,8 +1319,8 @@
       }
     ],
     "Annotations": [],
-    "X": -1384.1426537752404,
-    "Y": -1159.8769468115395,
-    "Zoom": 0.64474761014083459
+    "X": 33.7726715647799,
+    "Y": -189.8057543431056,
+    "Zoom": 0.22450063736392117
   }
 }
