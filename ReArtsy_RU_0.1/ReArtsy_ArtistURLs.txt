@@ -1,12 +1,7 @@
 https://www.artsy.net/artist/rembrandt-van-rijn
 https://www.artsy.net/artist/paul-gauguin
-https://www.artsy.net/artist/johannes-vermeer
 https://www.artsy.net/artist/vincent-van-gogh
-https://www.artsy.net/artist/peter-paul-rubens
 https://www.artsy.net/artist/john-singer-sargent
-https://www.artsy.net/artist/claude-monet
 https://www.artsy.net/artist/diego-velazquez
-https://www.artsy.net/artist/edouard-manet
 https://www.artsy.net/artist/leonardo-da-vinci
-https://www.artsy.net/artist/gustav-klimt
 https://www.artsy.net/artist/sandro-botticelli
