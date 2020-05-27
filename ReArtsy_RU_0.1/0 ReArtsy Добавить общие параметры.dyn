@@ -167,173 +167,6 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
       "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.List.SortByKey@var[]..[],var[]..[]",
-      "Id": "56d6d7a825774eac882fdd6b273cbed8",
-      "Inputs": [
-        {
-          "Id": "181356be52fe4044a067b9c00b297aba",
-          "Name": "list",
-          "Description": "список, который требуется отсортировать\n\nvar[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "46a905a462a44c2897895aa9f2090a61",
-          "Name": "keys",
-          "Description": "список клавиш\n\nvar[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "85cf272639ae4a698f1a0cbc197f76c3",
-          "Name": "sorted list",
-          "Description": "отсортированный список",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "bcb5b248cfbd499b9172683063d655f5",
-          "Name": "sorted keys",
-          "Description": "отсортированные ключи",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Сортировка списка на основе ключей\n\nList.SortByKey (list: var[]..[], keys: var[]..[]): var[]..[]"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.List.Transpose@var[]..[]",
-      "Id": "9a42c51341944860a1d4b6125d089276",
-      "Inputs": [
-        {
-          "Id": "edfc376930df47fab8e1b96d179097b8",
-          "Name": "lists",
-          "Description": "Перечень списков для переноса.\n\nvar[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "8dc118a0a5cd4799a145a40c49a02c06",
-          "Name": "lists",
-          "Description": "Перечень перенесенных списков.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Замена строк и столбцов в перечне списков. Если некоторые строки короче других, то в результирующий массив в качестве заполнителей вставляются нулевые значения, благодаря чему он всегда остается прямоугольным.\n\nList.Transpose (lists: var[]..[]): var[]..[]"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.List.GetItemAtIndex@var[]..[],int",
-      "Id": "b696a037d41c4bb6b9018e9556279b67",
-      "Inputs": [
-        {
-          "Id": "f516aeac58dd48d99cea928b1951459f",
-          "Name": "list",
-          "Description": "Список, из которого требуется извлечь элемент.\n\nvar[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": true,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "f66c0b4f98e64b068e7c4891fe015031",
-          "Name": "index",
-          "Description": "Индекс элемента для включения в выборку.\n\nint",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "3ca477a51625482e90450d89b297c8ba",
-          "Name": "item",
-          "Description": "Элемент в списке по заданному индексу.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Получение элемента из данного списка, расположенного по указанному индексу.\n\nList.GetItemAtIndex (list: var[]..[], index: int): var[]..[]"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
-      "NodeType": "CodeBlockNode",
-      "Code": "0;",
-      "Id": "99a6188cd2ef41aca92cb92e8de5428f",
-      "Inputs": [],
-      "Outputs": [
-        {
-          "Id": "c8fe27e97e984e759bec43e900bc8497",
-          "Name": "",
-          "Description": "Значение выражения в строке 1",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "Обеспечивает возможность непосредственного авторства кода DesignScript"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
-      "FunctionSignature": "DSCore.List.Transpose@var[]..[]",
-      "Id": "03c55ea9680442419c9b377e03e64cc1",
-      "Inputs": [
-        {
-          "Id": "035d7df8e25b4e3a88e4eb69c9cdbcde",
-          "Name": "lists",
-          "Description": "Перечень списков для переноса.\n\nvar[]..[]",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Outputs": [
-        {
-          "Id": "0c9391fd30e9482e85b9bf9b0314d4f3",
-          "Name": "lists",
-          "Description": "Перечень перенесенных списков.",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Auto",
-      "Description": "Замена строк и столбцов в перечне списков. Если некоторые строки короче других, то в результирующий массив в качестве заполнителей вставляются нулевые значения, благодаря чему он всегда остается прямоугольным.\n\nList.Transpose (lists: var[]..[]): var[]..[]"
-    },
-    {
-      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
-      "NodeType": "FunctionNode",
       "FunctionSignature": "DesignScript.Builtin.Dictionary.ByKeysValues@string[],var[]..[]",
       "Id": "0b49562e32274d5f98455aad4770291b",
       "Inputs": [
@@ -931,31 +764,6 @@
       "Id": "314473921e564191b0f00f43db4fb5b1"
     },
     {
-      "Start": "85cf272639ae4a698f1a0cbc197f76c3",
-      "End": "035d7df8e25b4e3a88e4eb69c9cdbcde",
-      "Id": "e06b2995b50e4e15bdf958b598d2a0e5"
-    },
-    {
-      "Start": "8dc118a0a5cd4799a145a40c49a02c06",
-      "End": "f516aeac58dd48d99cea928b1951459f",
-      "Id": "b529ff641a194f478e24d850495b2495"
-    },
-    {
-      "Start": "8dc118a0a5cd4799a145a40c49a02c06",
-      "End": "181356be52fe4044a067b9c00b297aba",
-      "Id": "8950b070038b47e6ac4db9b256a2dbf8"
-    },
-    {
-      "Start": "3ca477a51625482e90450d89b297c8ba",
-      "End": "46a905a462a44c2897895aa9f2090a61",
-      "Id": "4dab2c35a982423585486a177a0efd15"
-    },
-    {
-      "Start": "c8fe27e97e984e759bec43e900bc8497",
-      "End": "f66c0b4f98e64b068e7c4891fe015031",
-      "Id": "b4d3f862575a4a5081144158c14294f6"
-    },
-    {
       "Start": "6a6581e4a1064107b1f9744d663ace14",
       "End": "ae4cdd051abb43d2be809db48c5a3fea",
       "Id": "e8b60d8b053240e48f1a77dbd672f865"
@@ -1096,56 +904,6 @@
         "Excluded": false,
         "X": 486.42035286609712,
         "Y": 2254.4694400201547
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "List.SortByKey",
-        "Id": "56d6d7a825774eac882fdd6b273cbed8",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 2419.8795235236494,
-        "Y": 3586.2434478850746
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "List.Transpose",
-        "Id": "9a42c51341944860a1d4b6125d089276",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": true,
-        "X": 1705.2966085754579,
-        "Y": 3990.0738291249932
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "List.GetItemAtIndex",
-        "Id": "b696a037d41c4bb6b9018e9556279b67",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 2049.358835714138,
-        "Y": 3721.0026188953025
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Code Block",
-        "Id": "99a6188cd2ef41aca92cb92e8de5428f",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 1935.38117219495,
-        "Y": 3823.5241257822781
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "List.Transpose",
-        "Id": "03c55ea9680442419c9b377e03e64cc1",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": 2689.3628113950954,
-        "Y": 3567.5357163261447
       },
       {
         "ShowGeometry": true,
@@ -1319,8 +1077,8 @@
       }
     ],
     "Annotations": [],
-    "X": 33.7726715647799,
-    "Y": -189.8057543431056,
-    "Zoom": 0.22450063736392117
+    "X": 7.5616015216792221,
+    "Y": -272.55598771637693,
+    "Zoom": 0.24109131601605308
   }
 }
