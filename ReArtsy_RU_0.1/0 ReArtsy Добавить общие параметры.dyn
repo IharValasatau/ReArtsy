@@ -639,7 +639,7 @@
           "KeepListStructure": false
         }
       ],
-      "Replication": "Auto",
+      "Replication": "Longest",
       "Description": "Add shared parameter by name in the project. If the parameter not exists in the shared parameter file is an error thrown! If the parameter exists is the category binding being updated. Note. tooltip is being added if it exsist in the shared parameter file!\n\nParameter.AddSharedParameter (parameterName: string[], groupName: string, type: string, group: string, instance: bool = false, vary: bool = false, category: Category[] = null): Element"
     },
     {
@@ -1077,8 +1077,8 @@
       }
     ],
     "Annotations": [],
-    "X": 7.5616015216792221,
-    "Y": -272.55598771637693,
-    "Zoom": 0.24109131601605308
+    "X": -1675.1977867855135,
+    "Y": -1122.6706766034577,
+    "Zoom": 0.65714862839435972
   }
 }
